@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Pengolahancitraapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2b2d42</item>
+        <item name="colorPrimaryVariant">#2b2d42</item>
+        <item name="colorOnPrimary">#edf2f4</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#8d99ae</item>
+        <item name="colorSecondaryVariant">#8d99ae</item>
+        <item name="colorOnSecondary">#2b2d42</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#edf2f4</item>
+        <item name="android:progressTint">#8d99ae</item>
+        <item name="android:colorControlActivated">#2b2d42</item>
+    </style>
+</resources>
